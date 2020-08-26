@@ -2,6 +2,7 @@
   <div>
     <h2>{{ post.title }}</h2>
     <nuxt-content :document="post" />
+    <h4>{{ post.body }}</h4>
   </div>
 </template>
 
