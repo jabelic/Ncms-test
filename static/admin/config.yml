@@ -9,7 +9,6 @@ public_folder: /img
 collections:
   - name: 'blog'
     label: 'Blog'
-    format: 'markdown'
     folder: 'content/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
