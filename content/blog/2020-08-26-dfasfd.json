@@ -2,5 +2,10 @@
   "date": "2020-08-26T05:14:44.128Z",
   "title": "dfasfd",
   "description": "dfadfasdf",
+<<<<<<< HEAD
   "body": "sdfsadfasdfasdfasdfasdf\n\n\n![](../img/IMG_20200819_191807.jpg)"
 }
+=======
+  "body": "sdfsadfasdfasdfasdfasdf\n\n![Ginza line](../img/IMG_20200819_191807.jpg)"
+}
+>>>>>>> 6f45c498849da1f0582843b578b754d2f830edbe
