@@ -5,7 +5,7 @@
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
     </a-->
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-     data-target="navbarBasicExample" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}" >
+    @click="toggleMenu" v-bind:class="{'is-active': isOpen}" >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -41,6 +41,16 @@ export default{
   data() {
     return {
         isOpen: false
+    }
+  },
+  methods: {
+    toggleMenu () {
+      this.isOpened = !this.isOpened
+    },
+  },
+  watch: {
+    '$route': function () {
+      this.isOpened = false
     }
   }
 }
