@@ -14,9 +14,7 @@
 <br><br><br><br>
 <br><br><br><br>
 <br><br><br><br>
-
 <br><br><br><br>
-
 <br><br><br><br>
 <br><br><br><br>
 
@@ -28,9 +26,7 @@
   <br><br><br><br>
   <br><br><br><br>
   <br><br><br><br>
-
   <br><br><br><br>
-
   <br><br><br><br>
   <br><br><br><br>
 </div>
@@ -54,7 +50,14 @@ export default {
 </script>
 
 <style>
-
-
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP");
+#app {
+/* Google fontsで導入したいfontsからfont-familyを取ってくる */
+  font-family: 'Noto Serif JP', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
 </style>

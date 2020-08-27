@@ -1,5 +1,6 @@
 <template>
-  <div id="blog-list">
+  <div id="blog">
+    <Navbar />
   <li v-for="post of posts" :key="post.slug">
     <NuxtLink :to="post.slug">{{ post.title }}</NuxtLink><br>
   </li>
@@ -27,3 +28,15 @@ export default {
   },
 };
 </script>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP");
+#blog {
+/* Google fontsで導入したいfontsからfont-familyを取ってくる */
+  font-family: 'Noto Serif JP', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>

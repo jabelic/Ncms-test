@@ -15,11 +15,11 @@
   <div class="navbar-menu" id="navbarBasicExample" v-bind:class="{'is-active': isOpen}">
     <div class="navbar-start" >
       <a class="navbar-item">
-        Home
+        <NuxtLink to="/">Home</NuxtLink>
       </a>
 
       <a class="navbar-item">
-        About Me
+        <NuxtLink to="/Aboutme">About me</NuxtLink>
       </a>
 
       <a class="navbar-item">
