@@ -3,10 +3,37 @@
   <navbar />
   <div class="container">
   <hero />
-  <NuxtLink VueScrollTo="''#another1'" to> 下</NuxtLink>
+  <a href="#" v-scroll-to="'#another1'"> 下</a>
 
-  </div>
-  <a id="another1">到着</a>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+<br><br><br><br>
+
+<br><br><br><br>
+<br><br><br><br>
+
+  <div id="another1">到着</div>
+  <br><br><br><br>
+
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+
+  <br><br><br><br>
+
+  <br><br><br><br>
+  <br><br><br><br>
+</div>
 </div>
 </template>
 
